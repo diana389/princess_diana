@@ -1,0 +1,81 @@
+#image {
+  max-width: 100%;
+  padding: 1%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+body {
+  background-color: rgb(204, 204, 204);
+  width: 50em;
+  margin: 5% auto;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2 {
+  color: rgb(63, 63, 63);
+  text-align: center;
+}
+
+h3 {
+  padding-top: 1em;
+  text-align: center;
+}
+
+section {
+  text-align: justify;
+  background-color: rgb(81, 81, 81);
+  color: white;
+  margin: 5% 1%;
+}
+
+ul {
+  display: block;
+  padding: 0% 15% 5% 15%;
+}
+
+li {
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+.list-items {
+  padding: 0% 2% 0% 2%;
+  height: 3.5em;
+  list-style: circle;
+  overflow: hidden;
+  display: block;
+  background: -webkit-linear-gradient(white 60%, rgb(81, 81, 81));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.list-items:hover {
+  overflow: visible;
+  height: fit-content;
+  min-height: 3.5em;
+  -webkit-text-fill-color: white;
+}
+
+.facts {
+  border-bottom-style: solid;
+  border-bottom-width: 0.01cm;
+  border-bottom-color: grey;
+  padding: 2.5%;
+}
+
+p,
+#img-caption {
+  text-align: center;
+  display: block;
+  color: rgb(137, 136, 136);
+}
+
+a {
+  color: rgb(66, 148, 148);
+}
